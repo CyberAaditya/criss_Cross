@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>tic-tac-toe</title>
+
+
+<script language="javascript" type="text/javascript" src="INTERFACE.JS"></script>
+<script language="javascript" type="text/javascript" src="artificial-intelligence1.js"></script>
+<script language="javascript" type="text/javascript" src="TIC-TAC-TOE.JS"></script>
+
+<style>
+
+    
+#tic-tac-toe-11, #tic-tac-toe-12, #tic-tac-toe-13,
+#tic-tac-toe-21, #tic-tac-toe-22, #tic-tac-toe-23,
+#tic-tac-toe-31, #tic-tac-toe-32, #tic-tac-toe-33
+{
+width:40px; height:40px;
+margin:2px 2px 2px 2px;
+readonly:true;
+text-align:center;
+}
+
+#restart,#replay, 
+{
+vertical-align:top;
+margin-left:25px;
+margin-top:5px;
+}
+    
+</style>
+
+</head>
+
+<body onload="start();">
+    <input id="tic-tac-toe-11" type="text" readonly>
+    <input id="tic-tac-toe-12" type="text" readonly>
+    <input id="tic-tac-toe-13" type="text" readonly>
+    <input type="button" value="Start Playing" id="restart" />
+<br />
+
+    <input id="tic-tac-toe-21" type="text" readonly>
+    <input id="tic-tac-toe-22" type="text" readonly>
+    <input id="tic-tac-toe-23" type="text" readonly>
+    
+<br />
+    <input id="tic-tac-toe-31" type="text" readonly>
+    <input id="tic-tac-toe-32" type="text" readonly>
+    <input id="tic-tac-toe-33" type="text" readonly>
+    <br />
+</body>
+</html>
